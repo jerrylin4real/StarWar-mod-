@@ -6,14 +6,14 @@ class Play extends Phaser.Scene {
 
     //Preloads sprites
     preload(){
-        this.load.image('background', 'assets/starwarspace.png');
+        this.load.image('background', 'assets/background.jpg');
         this.load.image('rocket', 'assets/rocket.png');
         this.load.image('spaceship', 'assets/spaceship.png');
         this.load.image('Deathstar', 'assets/deathstar.png');
         this.load.spritesheet('explosion', 'assets/explosion.png', {frameWidth: 32, frameHeight: 32, startFrame: 0, endFrame: 5});
         this.load.image('gameOver', 'assets/gameOver.png');
 
-        this.load.audio('bgm', ['assets/starwar.mp3']);
+        this.load.audio('bgm', ['assets/music.mp3']);
         this.load.audio('backgroundshooting', ['assets/guns.mp3']);
     }
 
